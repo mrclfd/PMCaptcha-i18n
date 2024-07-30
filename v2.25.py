@@ -2,607 +2,607 @@
     # region General
     "settings_lists": [
         "All Settings (Please refer to docs to learn more about):\n%s",
-        "所有设置（具体数值含义请自行查看文档）：\n%s"
+        "Semua Pengaturan (Silakan lihat dokumen untuk mempelajari lebih lanjut tentang):\n%s"
     ],
     "cmd_err_run": [
         f"Error occurred when running command: {code('%s')}: {code('%s')}\n{code('%s')}",
-        f"运行指令 {code('%s')} 时发生错误: {code('%s')}\n{code('%s')}",
+        f"Terjadi kesalahan saat menjalankan perintah: {code('%s')} : {code('%s')}\n{code('%s')}",
     ],
     "no_cmd_given": [
         "Please use this command in private chat, or add parameters to execute.",
-        "请在私聊时使用此命令，或添加参数执行。"
+        "Silakan gunakan perintah ini di chat pribadi, atau tambahkan parameter untuk menjalankan."
     ],
     "invalid_user_id": [
         "Invalid User ID",
-        "未知用户或无效的用户 ID"
+        "ID Pengguna Tidak Valid"
     ],
     "invalid_param": [
         "Invalid Parameter",
-        "无效的参数"
+        "Parameter Tidak Valid"
     ],
     "enabled": [
         "Enabled",
-        "开启"
+        "Diaktifkan"
     ],
     "disabled": [
         "Disabled",
-        "关闭"
+        "Dinonaktifkan"
     ],
     "none": [
         "None",
-        "无"
+        "Tidak Ada"
     ],
     "tip_edit": [
         f"You can edit this by using {code('%s')}",
-        f"如需编辑，请使用 {code('%s')}"
+        f"Untuk mengedit, silakan gunakan {code('%s')}"
     ],
     "tip_run_in_pm": [
         "You can only run this command in private chat, or by adding parameters.",
-        "请在私聊使用此命令，或添加参数执行。"
+        "Silakan jalankan perintah ini di chat pribadi, atau tambahkan parameter untuk menjalankan."
     ],
     # endregion
 
     # region Plugin
     "plugin_desc": [
         "Captcha for PM",
-        "私聊人机验证插件"
+        "Plugin Verifikasi Captcha untuk Chat Pribadi"
     ],
     "check_usage": [
         "Please use %s to see available commands.",
-        "请使用 %s 查看可用命令"
+        "Silakan gunakan %s untuk melihat perintah yang tersedia."
     ],
     "curr_version": [
         f"Current {code('PMCaptcha')} Version: %s",
-        f"{code('PMCaptcha')} 当前版本：%s"
+        f"Versi {code('PMCaptcha')} Saat Ini: %s"
     ],
     "unknown_version": [
         italic("Unknown"),
-        italic("未知")
+        italic("Tidak Diketahui")
     ],
     # endregion
 
     # region Vocabs
     "vocab_msg": [
         "Message",
-        "消息"
+        "Pesan"
     ],
     "vocab_array": [
         "List",
-        "列表"
+        "Daftar"
     ],
     "vocab_bool": [
         "Boolean",
-        "y / n"
+        "y / n "
     ],
     "vocab_int": [
         "Integer",
-        "整数"
+        "Bilangan Bulat"
     ],
     "vocab_cmd": [
         "Command",
-        "指令"
+        "Perintah"
     ],
     "vocab_rule": [
         "Rule",
-        "规则"
+        "Aturan"
     ],
     "vocab_action": [
         "Action",
-        "操作"
+        "Tindakan"
     ],
     # endregion
 
     # region Captcha Challenge
     "verify_verified": [
         "Verified user",
-        "已验证用户"
+        "Pengguna Terverifikasi"
     ],
     "verify_unverified": [
         "Unverified user",
-        "未验证用户"
+        "Pengguna Tidak Terverifikasi"
     ],
     "verify_blocked": [
         "You were blocked.",
-        "您已被封禁"
+        "Anda telah diblokir."
     ],
     "verify_log_punished": [
         "User %s has been %s.",
-        "已对用户 %s 执行`%s`操作"
+        "Pengguna %s telah %s."
     ],
     "verify_log_passed": [
         "User %s has passed the %s captcha.",
-        "用户 %s 已通过`%s`验证"
+        "Pengguna %s telah lulus captcha %s."
     ],
     "verify_challenge": [
         "Please answer this question to prove you are human (1 chance)",
-        "请回答这个问题证明您不是机器人 (一次机会)"
+        "Silakan jawab pertanyaan ini untuk membuktikan Anda adalah manusia (1 kesempatan)"
     ],
     "verify_challenge_timed": [
         "You have %i seconds.",
-        "您有 %i 秒来回答这个问题"
+        "Anda memiliki %i detik."
     ],
     "verify_passed": [
         "Verification passed.",
-        "验证通过"
+        "Verifikasi berhasil."
     ],
     "verify_failed": [
         "Verification failed.",
-        "验证失败"
+        "Verifikasi gagal."
     ],
     "verify_timeout": [
         "Verification timeout.",
-        "验证超时"
+        "Waktu verifikasi habis."
     ],
     # Image
     "verify_complete_image": [
         "Please complete the following image captcha.",
-        "请完成以下图像辨识验证"
+        "Silakan lengkapi captcha gambar berikut."
     ],
     # Sticker
     "verify_send_sticker": [
         "Please send a sticker to me.",
-        "请发送一个贴纸给我"
+        "Silakan kirim stiker ke saya."
     ],
     # endregion
 
     # region Help
     "cmd_param": [
         "Parameter",
-        "参数"
+        "Parameter"
     ],
     "cmd_param_optional": [
         "Optional",
-        "可选"
+        "Opsional"
     ],
     "cmd_alias": [
         "Alias",
-        "别名/快捷命令"
+        "Alias"
     ],
     "cmd_detail": [
         f"Do {code(f',{user_cmd_name} h ')}[command ] for details",
-        f"详细指令请输入 {code(f',{user_cmd_name} h ')}[指令名称 ]",
+        f"Untuk detail, silakan ketik {code(f',{user_cmd_name} h ')}[perintah ]"
     ],
     "cmd_not_found": [
         "Command Not Found",
-        "指令不存在"
+        "Perintah Tidak Ditemukan"
     ],
     "cmd_list": [
         "Command List",
-        "指令列表"
+        "Daftar Perintah"
     ],
     "priority": [
         "Priority",
-        "优先级"
-    ],
+        "Prioritas"
+    ], 
     "cmd_search_result": [
         f"Search Result for `%s`",
-        f"`%s` 的搜索结果"
+        f"Hasil Pencarian untuk `%s`"
     ],
     "cmd_search_docs": [
         "Documentation",
-        "文档"
+        "Dokumentasi"
     ],
     "cmd_search_cmds": [
         "Commands",
-        "指令"
+        "Perintah"
     ],
     "cmd_search_none": [
         "No result found.",
-        "未找到结果"
+        "Tidak ada hasil ditemukan."
     ],
     # endregion
 
     # region Check
     "user_verified": [
         f"User {code('%i')} {italic('verified')}",
-        f"用户 {code('%i')} {italic('已验证')}"
+        f"Pengguna {code('%i')} {italic('terverifikasi')}"
     ],
     "user_unverified": [
         f"User {code('%i')} {bold('unverified')}",
-        f"用户 {code('%i')} {bold('未验证')}"
+        f"Pengguna {code('%i')} {bold('tidak terverifikasi')}"
     ],
     # endregion
 
     # region Add / Delete
     "add_whitelist_success": [
         f"User {code('%i')} added to whitelist",
-        f"用户 {code('%i')} 已添加到白名单"
+        f"Pengguna {code('%i')} ditambahkan ke daftar putih"
     ],
     "add_whitelist_failed": [
         f"Failed to add iser {code('%i')} to whitelist",
-        f"无法添加用户 {code('%i')} 到白名单"
+        f"Gagal menambahkan pengguna {code('%i')} ke daftar putih"
     ],
     "remove_verify_log_success": [
         f"Removed User {code('%i')}'s verify record",
-        f"已删除用户 {code('%i')} 的验证记录"
+        f"Catatan verifikasi pengguna {code('%i')} telah dihapus"
     ],
     "remove_verify_log_failed": [
         f"Failed to remove User {code('%i')}'s verify record.",
-        f"删除用户 {code('%i')} 的验证记录失败"
+        f"Gagal menghapus catatan verifikasi pengguna {code('%i')}."
     ],
     "remove_verify_log_not_found": [
         f"Verify record not found for User {code('%i')}",
-        f"未找到用户 {code('%i')} 的验证记录"
+        f"Catatan verifikasi tidak ditemukan untuk pengguna {code('%i')}"
     ],
     # endregion
 
     # region Unstuck
     "unstuck_success": [
         f"User {code('%i')} has removed from challenge mode",
-        f"用户 {code('%i')} 已解除验证状态"
+        f"Pengguna {code('%i')} telah dihapus dari mode tantangan"
     ],
     "not_stuck": [
         f"User {code('%i')} is not stuck",
-        f"用户 {code('%i')} 未在验证状态"
+        f"Pengguna {code('%i')} tidak terjebak"
     ],
     # endregion
 
     # region Welcome
     "welcome_curr_rule": [
-        "Current welcome rule",
-        "当前验证通过时消息规则"
+       "Current welcome rule",
+       "Aturan selamat datang saat ini"
     ],
     "welcome_set": [
         "Welcome message set.",
-        "已设置验证通过消息"
+        "Pesan selamat datang telah diatur."
     ],
     "welcome_reset": [
         "Welcome message reset.",
-        "已重置验证通过消息"
+        "Pesan selamat datang telah direset."
     ],
     # endregion
 
     # region Whitelist
     "whitelist_curr_rule": [
         "Current whitelist rule",
-        "当前白名单规则"
+        "Aturan daftar putih saat ini"
     ],
     "whitelist_set": [
         "Keywords whitelist set.",
-        "已设置关键词白名单"
+        "Daftar putih kata kunci telah diatur."
     ],
     "whitelist_reset": [
         "Keywords whitelist reset.",
-        "已重置关键词白名单"
+        "Daftar putih kata kunci telah direset."
     ],
     # endregion
 
     # region Blacklist
     "blacklist_curr_rule": [
         "Current blacklist rule",
-        "当前黑名单规则"
+        "Aturan daftar hitam saat ini"
     ],
     "blacklist_set": [
         "Keywords blacklist set.",
-        "已设置关键词黑名单"
+        "Daftar hitam kata kunci telah diatur."
     ],
     "blacklist_reset": [
         "Keywords blacklist reset.",
-        "已重置关键词黑名单"
+        "Daftar hitam kata kunci telah direset."
     ],
     "blacklist_triggered": [
         "Blacklist rule triggered",
-        "您触发了黑名单规则"
+        "Aturan daftar hitam dipicu"
     ],
     # endregion
 
     # region Timeout
     "timeout_curr_rule": [
         "Current timeout: %i second(s)",
-        "当前超时时间: %i 秒"
+        "Waktu tunggu saat ini: %i detik"
     ],
     "timeout_set": [
         "Verification timeout has been set to %i seconds.",
-        "已设置验证超时时间为 %i 秒"
+        "Waktu tunggu verifikasi telah diatur menjadi %i detik."
     ],
     "timeout_off": [
         "Verification timeout disabled.",
-        "已关闭验证超时时间"
+        "Waktu tunggu verifikasi dinonaktifkan."
     ],
     "timeout_exceeded": [
         "Verification timeout.",
-        "验证超时"
+        "Waktu tunggu verifikasi habis."
     ],
     # endregion
 
     # region Disable PM
     "disable_pm_curr_rule": [
         "Current disable PM status: %s",
-        "当前禁止私聊状态: 已%s"
+        "Status disable PM saat ini: %s"
     ],
     "disable_pm_tip_exception": [
         "This feature will automatically allow contents and whitelist users.",
-        "此功能会自动放行联系人与白名单用户"
+        "Fitur ini akan secara otomatis mengizinkan konten dan pengguna daftar putih."
     ],
     "disable_set": [
         f"Disable private chat has been set to {bold('%s')}.",
-        f"已设置禁止私聊为{bold('%s')}"
+        f"Disable chat pribadi telah diatur menjadi {bold('%s')}."
     ],
     "disable_pm_enabled": [
         "Owner has private chat disabled.",
-        "对方已禁止私聊。"
+        "Pemilik telah menonaktifkan chat pribadi."
     ],
     # endregion
 
     # region Stats
     "stats_display": [
         f"has verified {bold('%i')} users in total.\nSuccess: {bold('%i')}\nBlocked: {bold('%i')}\n\nCurrent Status:\nVerifing: {bold('%i')}\nBanning: {bold('%i')}\nBoom Times: {bold('%i')}",
-        f"已进行验证 {bold('%i')} 次\n验证通过: {bold('%i')} 次\n拦截: {bold('%i')} 次\n\n目前状态:\n正在验证: {bold('%i')} 人\n正在封禁: {bold('%i')} 人\n被轰炸次数: {bold('%i')} 次"
+        f"telah memverifikasi {bold('%i')} pengguna secara total.\nSukses: {bold('%i')}\nDiblokir: {bold('%i')}\n\nStatus Saat Ini:\nVerifikasi: {bold('%i')}\nPemblokiran: {bold('%i')}\nWaktu Ledakan: {bold('%i')}"
     ],
     "stats_reset": [
         "Statistics has been reset.",
-        "已重置统计"
+        "Statistik telah direset."
     ],
     "stats_flooding": [
         bold(f"This account is being flooding, count: {code('%i')}"),
-        bold(f"此账号正在被轰炸, 轰炸人数: {code('%i')}")
+        bold(f"Akun ini sedang mengalami serangan, jumlah: {code('%i')}")
     ],
     # endregion
 
     # region Action
     "action_curr_rule": [
         "Current action rule",
-        "当前验证失败规则"
+        "Aturan aksi saat ini"
     ],
     "action_set": [
         f"Action has been set to {bold('%s')}.",
-        f"验证失败后将执行{bold('%s')}操作"
+        f"Aksi telah diatur menjadi {bold('%s')}."
     ],
     "action_set_none": [
         "Action has been set to none.",
-        "验证失败后将不执行任何操作"
+        "Aksi telah diatur menjadi tidak ada."
     ],
     "action_ban": [
         "Ban",
-        "封禁"
+        "Blokir"
     ],
     "action_delete": [
         "Ban and delete",
-        "封禁并删除对话"
+        "Blokir dan hapus"
     ],
     "action_archive": [
         "Ban and archive",
-        "封禁并归档"
+        "Blokir dan arsip"
     ],
     # endregion
 
     # region Report
     "report_curr_rule": [
         "Current report state: %s",
-        "当前举报状态为: %s"
+        "Status laporan saat ini: %s"
     ],
     "report_set": [
         f"Report has been set to {bold('%s')}.",
-        f"已设置举报状态为{bold('%s')}"
+        f"Laporan telah diatur menjadi {bold('%s')}."
     ],
     # endregion
 
     # region Premium
     "premium_curr_rule": [
         "Current premium user rule",
-        "当前 Premium 用户规则"
+        "Aturan pengguna premium saat ini"
     ],
     "premium_set_allow": [
         f"Telegram Premium users will be allowed to {bold('bypass')} the captcha.",
-        f"将{bold('不对')} Telegram Premium 用户{bold('发起验证')}"
+        f"Pengguna Telegram Premium akan diizinkan untuk {bold('melewati')} captcha."
     ],
     "premium_set_ban": [
         f"Telegram Premium users will be {bold('banned')} from private chat.",
-        f"将{bold('禁止')} Telegram Premium 用户私聊"
+        f"Pengguna Telegram Premium akan {bold('diblokir')} dari chat pribadi."
     ],
     "premium_set_only": [
         f"{bold('Only allowed')} Telegram Premium users to private chat.",
-        f"将{bold('仅允许')} Telegram Premium 用户私聊"
+        f"{bold('Hanya diizinkan')} pengguna Telegram Premium untuk chat pribadi."
     ],
     "premium_set_none": [
         "Nothing will do to Telegram Premium",
-        "将不对 Telegram Premium 用户执行额外操作"
+        "Tidak ada yang akan dilakukan pada pengguna Telegram Premium"
     ],
     "premium_only": [
         "Owner only allows Telegram Premium users to private chat.",
-        "对方只允许 Telegram Premium 用户私聊"
+        "Pemilik hanya mengizinkan pengguna Telegram Premium untuk chat pribadi."
     ],
     "premium_ban": [
         "Owner bans Telegram Premium users from private chat.",
-        "对方禁止 Telegram Premium 用户私聊"
+        "Pemilik memblokir pengguna Telegram Premium dari chat pribadi."
     ],
     # endregion
 
     # region Groups In Common
     "groups_in_common_curr_rule": [
         "Current groups in common rule",
-        "当前共同群规则"
+        "Aturan grup umum saat ini"
     ],
     "groups_in_common_set": [
         f"Groups in common larger than {bold('%i')} will be whitelisted.",
-        f"共同群数量大于 {bold('%i')} 时将自动添加到白名单"
+        f"Grup umum lebih besar dari {bold('%i')} akan diizinkan."
     ],
     "groups_in_common_disabled": [
         "Group in command is not enabled",
-        "未开启共同群数量检测"
+        "Grup dalam perintah tidak diaktifkan"
     ],
     "groups_in_common_disable": [
         "Groups in common disabled.",
-        "已关闭共同群检查"
+        "Grup umum dinonaktifkan."
     ],
     # endregion
 
     # region Chat History
     "chat_history_curr_rule": [
         f"Chat history equal or larger than {bold('%i')} will be whitelisted.",
-        f"聊天记录数量大于 {bold('%i')} 时将自动添加到白名单"
+        f"Riwayat chat sama dengan atau lebih besar dari {bold('%i')} akan diizinkan."
     ],
     "chat_history_disabled": [
         "Chat history check is not enabled",
-        "未开启聊天记录数量检测"
+        "Pemeriksaan riwayat chat tidak diaktifkan"
     ],
     # endregion
 
     # region Initiative
     "initiative_curr_rule": [
         "Current initiative status: %s",
-        "当前对主动进行对话的用户添加白名单状态为： %s"
+        "Status inisiatif saat ini: %s"
     ],
     "initiative_set": [
         f"Initiative has been set to {bold('%s')}.",
-        f"已设置对主动进行对话的用户添加白名单状态为{bold('%s')}"
+        f"Inisiatif telah diatur menjadi {bold('%s')}."
     ],
     # endregion
 
     # region Silent
     "silent_curr_rule": [
         "Current silent status: %s",
-        "当前静音状态: 已%s"
+        "Status diam saat ini: %s"
     ],
     "silent_set": [
         f"Silent has been set to {bold('%s')}.",
-        f"已设置静音模式为{bold('%s')}"
+        f"Diam telah diatur menjadi {bold('%s')}."
     ],
     # endregion
 
     # region Flood
     "flood_curr_rule": [
         "Current flood detect limit was set to %i user(s)",
-        "当前轰炸人数已设置为 %i 人"
+        "Batas deteksi banjir saat ini diatur menjadi %i pengguna"
     ],
     # Username
     "flood_username_curr_rule": [
         "Current flood username option was set to %s",
-        "当前轰炸时切换用户名选项已设置为 %s"
+        "Opsi username banjir saat ini telah diatur ke %s"
     ],
     "flood_username_set_confirm": [
         (f"The feature may lose your username, are you sure you want to enable this feature?\n"
          f"Please enter {code(f',{cmd_name} flood_username y')} again to confirm."),
-        f"此功能有可能会导致您的用户名丢失，您是否确定要开启此功能？\n请再次输入 {code(f',{cmd_name} flood_username y')} 来确认"
+        f"Fitur ini dapat menyebabkan kehilangan username Anda, apakah Anda yakin ingin mengaktifkan fitur ini?\nSilakan masukkan {code(f',{cmd_name} flood_username y')} lagi untuk konfirmasi"
     ],
     "flood_username_set": [
         f"Change username in flood preiod has been %s.",
-        f"轰炸时切换用户名已%s"
+        f"Perubahan username selama periode banjir telah %s",
     ],
     "flood_channel_desc": [
         ("This channel is a placeholder of username, which the owner is being flooded.\n"
          "Please content him later after this channel is gone."),
-        "这是一个用于临时设置用户名的频道，该群主正在被私聊轰炸\n请在此频道消失后再联系他。"
+        "Ini adalah saluran tempat untuk pengaturan username, yang dimiliki oleh orang yang sedang dibanjiri.\nSilakan hubungi dia nanti setelah saluran ini hilang."
     ],
     # Action
     "flood_act_curr_rule": [
         "Current flood action was set to %s",
-        "当前轰炸操作已设置为 %s"
+        "Tindakan banjir saat ini telah diatur ke %s"
     ],
     "flood_act_set_asis": [
         f"All users in flood period will be {bold('treat as verify failed')}.",
-        f"所有在轰炸期间的用户将会{bold('与验证失败的处理方式一致')}"
+        f"Semua pengguna selama periode banjir akan di{bold('tangani sebagai gagal verifikasi')}"
     ],
     "flood_act_set_captcha": [
         f"All users in flood period will be {bold('asked for captcha')}.",
-        f"所有在轰炸期间的用户将会{bold('进行验证码挑战')}"
+        f"Semua pengguna selama periode banjir akan di{bold('diminta untuk captcha')}"
     ],
     "flood_act_set_none": [
         "Nothing will do to users in flood period.",
-        "所有在轰炸期间的用户将不会被进行任何处理"
+        "Tidak ada yang akan dilakukan pada pengguna selama periode banjir"
     ],
     "flood_act_set_delete": [
         "All flooded users will be deleted and reported spamming.",
-        "所有轰炸的用户将会被举报并删除聊天"
+        "Semua pengguna yang dibanjiri akan dihapus dan dilaporkan sebagai spam"
     ],
     # endregion
 
     # region Custom Rule
     "custom_rule_curr_rule": [
         "Current custom rule",
-        "当前自定义规则"
+        "Aturan kustom saat ini"
     ],
     "custom_rule_set": [
         f"Custom rule has been set to\n{code('%s')}.",
-        f"已设置自定义规则为\n{code('%s')}"
+        f"Aturan kustom telah diatur ke\n{code('%s')}"
     ],
     "custom_rule_reset": [
         "Custom rule has been deleted.",
-        "已删除自定义规则"
+        "Aturan kustom telah dihapus"
     ],
     "custom_rule_exec_err": [
         "Error occurred when executing custom rule",
-        "执行自定义规则时发生错误"
+        "Kesalahan terjadi saat menjalankan aturan kustom"
     ],
     # endregion
 
     # region Collect Logs
     "collect_logs_curr_rule": [
         "Current collect logs status: %s",
-        "当前收集日志状态: 已%s"
+        "Status pengumpulan log saat ini: %s"
     ],
     "collect_logs_note": [
         ("This feature will only collect user information and chat logs of non-verifiers "
-         f"via @{log_collect_bot} , and is not provided to third parties (except @LivegramBot ).\n"
+         f"via @{log_collect_bot}, and is not provided to third parties (except @LivegramBot ).\n"
          "Information collected will be used for PMCaptcha improvements, "
          "toggling this feature does not affect the use of PMCaptcha."),
-        (f"此功能仅会通过 @{log_collect_bot} 收集未通过验证者的用户信息以及验证未通过的聊天记录；"
-         "且不会提供给第三方(@LivegramBot 除外)。\n收集的信息将用于 PMCaptcha 改进，开启或关闭此功能不影响 PMCaptcha 的使用。")
+        (f"Fitur ini hanya akan mengumpulkan informasi pengguna dan log chat dari pengguna yang tidak diverifikasi melalui @{log_collect_bot}; "
+         "Dan tidak akan diberikan kepada pihak ketiga (kecuali @LivegramBot). \nInformasi yang dikumpulkan akan digunakan untuk menyempurnakan PMCaptcha. Mengaktifkan atau menonaktifkan fitur ini tidak akan memengaruhi penggunaan PMCaptcha.")
     ],
     "collect_logs_set": [
         "Collect logs has been set to %s.",
-        "已设置收集日志为 %s"
+        "Pengumpulan log telah diatur ke %s"
     ],
     # endregion
 
-    # region Captcha Type
+    # region Captcha Type   
     "type_curr_rule": [
         "Current captcha type: %s",
-        "当前验证码类型: %s"
+        "Tipe captcha saat ini: %s"
     ],
     "type_set": [
         f"Captcha type has been set to {bold('%s')}.",
-        f"已设置验证码类型为 {bold('%s')}"
+        f"Tipe captcha telah diatur ke {bold('%s')}"
     ],
     "type_param_name": [
         "Type",
-        "类型"
+        "Tipe"
     ],
     "type_captcha_img": [
         "Image",
-        "图像辨识"
+        "Gambar"
     ],
     "type_captcha_math": [
         "Math",
-        "计算"
+        "Matematika"
     ],
     "type_captcha_sticker": [
         "Sticker",
-        "贴纸"
+        "Stiker"
     ],
     # endregion
 
     # region Export / Import Settings
     "export_success": [
         "Export success, settings has exported into `Saved Messages`",
-        "导出成功，设置已导出到 `收藏夹`"
+        "Ekspor berhasil, pengaturan telah diekspor ke `Pesan Tersimpan`"
     ],
     "import_success": [
         "Import completed.",
-        "导入成功"
+        "Impor selesai"
     ],
     "import_failed": [
         "Import failed.",
-        "导入失败!"
+        "Impor gagal"
     ],
     "import_version_mismatch": [
         "Config version doesn't match with plugin version.",
-        "设置版本与插件版本不匹配"
+        "Versi konfigurasi tidak cocok dengan versi plugin"
     ],
     # endregion
 
     # region Image Captcha Type
     "img_captcha_curr_rule": [
         "Current image captcha type: %s",
-        "当前图像验证类型: %s"
+        "Tipe captcha gambar saat ini: %s"
     ],
     "img_captcha_type_func": [
         "funCaptcha",
-        "funCaptcha",
+        "funCaptcha"
     ],
     "img_captcha_type_github": [
         "GitHub",
-        "GitHub",
+        "GitHub"
     ],
     "img_captcha_type_rec": [
         "reCaptcha",
@@ -610,11 +610,11 @@
     ],
     "img_captcha_retry_curr_rule": [
         "Current max retry for image captcha: %s",
-        "当前图像验证码最大重试次数: %s"
+        "Maksimum retry untuk captcha gambar saat ini: %s"
     ],
     "img_captcha_retry_set": [
         "Max retry for image captcha has been set to %s.",
-        "已设置图像验证码最大重试次数为 %s"
+        "Maksimum retry untuk captcha gambar telah diatur ke %s"
     ],
     # endregion
 }
